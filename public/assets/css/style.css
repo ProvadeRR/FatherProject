@@ -1,0 +1,37 @@
+body {
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    max-width: 500px;
+}
+
+.invoice-form {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.1);
+}
+
+.invoice-form h2 {
+    color: #333;
+}
+
+.invoice-form label {
+    font-weight: bold;
+}
+
+.invoice-form input[type="text"],
+.invoice-form input[type="number"],
+.invoice-form select {
+    border-radius: 5px;
+}
+
+.invoice-form button[type="submit"] {
+    margin-top: 20px;
+}
